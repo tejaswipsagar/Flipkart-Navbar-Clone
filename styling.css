@@ -1,0 +1,87 @@
+/* Main Body */
+body{
+    margin: 0px;
+    background-color: #EAF6F6;
+}
+
+/* <!-- 1st Navbar and Appliances Type --> */
+
+.navbar-title1{
+    background-color: #2874f0;
+}
+
+.flipkart-logo{
+    width: 40%;
+    padding-top: 9.5px;
+}
+
+.button1{
+    background-color: #2874f0;
+    border-color: #2874f0;
+}
+
+.nav-item{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 550;
+}
+
+.d-flex{
+    width: 600px;
+}
+
+.icons{
+    color: #2874f0;
+}
+
+.dots{
+    visibility: hidden;
+}
+
+.new-customer{
+    text-align: left;
+    
+}
+
+.sign-up{
+    text-align: right;
+    color: #2874f0;
+    position: relative;
+    left: 40px;
+
+    
+}
+
+.dropdown-menu{
+    width:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* Responsive */
+
+@media (max-width: 400.200px) {
+    .flipkart-logo{
+        width: 80px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    
+    .cart{
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    .d-flex{
+        width:350px;
+    }
+
+
+
+}
